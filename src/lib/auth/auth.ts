@@ -22,6 +22,9 @@ export async function testRequest() {
     //console.log("userInput", get(userInput));
     //console.log("userPassword", get(userPassword));
     todo.set(data);
+    console.log(data);
+    console.log(data.user);
+    console.log(data.user.projects);
   } catch (err) {
     console.error("Fetch failed:", err);
   }
