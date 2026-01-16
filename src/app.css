@@ -1,0 +1,13 @@
+html, body { height: 100%; margin: 0; }
+* { box-sizing: border-box; }
+
+:root {
+  --card-border: #d9d9e2;
+  --field-border: #b8b8c8;
+  --label: #9b9bad;
+  --text: #111827;
+  --btn-bg: #14141a;
+  --btn-text: #b7a7ff;
+  --snack-bg: #e8e8ee;
+  --snack-text: #333;
+}

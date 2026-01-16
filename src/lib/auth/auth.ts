@@ -19,6 +19,8 @@ export async function testRequest() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
     const data = await res.json();
+    //console.log("userInput", get(userInput));
+    //console.log("userPassword", get(userPassword));
     todo.set(data);
   } catch (err) {
     console.error("Fetch failed:", err);
