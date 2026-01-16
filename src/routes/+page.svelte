@@ -11,7 +11,7 @@
 <button type="button" on:click={goToContacts}> Go to Contacts </button>
  -->
 
-<script lang="ts">
+<!-- <script lang="ts">
   import { goto } from "$app/navigation";
   import { testRequest } from "$lib/auth/auth";
   import { userInput, userPassword } from "$lib/stores/userInput";
@@ -50,3 +50,10 @@
   placeholder="Type password..."
   on:change={(e) => handleChange(e, "password")}
 />
+ -->
+
+<script>
+  import LoginCard from "$lib/components/LoginCard.svelte";
+</script>
+
+<LoginCard form={null} />
